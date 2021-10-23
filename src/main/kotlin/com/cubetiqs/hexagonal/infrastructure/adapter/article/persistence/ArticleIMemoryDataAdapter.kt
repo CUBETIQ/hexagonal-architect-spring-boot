@@ -1,4 +1,4 @@
-package com.cubetiqs.hexagonal.infrastructure.adapter.persistence
+package com.cubetiqs.hexagonal.infrastructure.adapter.article.persistence
 
 import com.cubetiqs.hexagonal.domain.article.model.Article
 import com.cubetiqs.hexagonal.domain.article.port.ArticlePort
@@ -6,7 +6,7 @@ import com.cubetiqs.hexagonal.domain.article.usecase.ArticleCreate
 import com.cubetiqs.hexagonal.domain.article.usecase.ArticleQuery
 import java.util.concurrent.ConcurrentHashMap
 
-class ArticleImMemoryDataAdapter : ArticlePort {
+class ArticleIMemoryDataAdapter : ArticlePort {
     companion object {
         private val articles = ConcurrentHashMap<Long, Article>()
     }

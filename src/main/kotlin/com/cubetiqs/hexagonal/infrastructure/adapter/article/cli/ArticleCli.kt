@@ -1,4 +1,4 @@
-package com.cubetiqs.hexagonal.infrastructure.adapter.cli
+package com.cubetiqs.hexagonal.infrastructure.adapter.article.cli
 
 import com.cubetiqs.hexagonal.domain.article.model.Article
 import com.cubetiqs.hexagonal.domain.article.port.ArticlePort

@@ -1,4 +1,4 @@
-package com.cubetiqs.hexagonal.infrastructure.adapter.persistence
+package com.cubetiqs.hexagonal.infrastructure.adapter.article.persistence
 
 import com.cubetiqs.hexagonal.domain.article.model.Article
 import com.cubetiqs.hexagonal.domain.article.port.ArticlePort
