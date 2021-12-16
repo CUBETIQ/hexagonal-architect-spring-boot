@@ -15,6 +15,10 @@ repositories {
 	maven("https://m.ctdn.net")
 }
 
+// Fixed Zero-Day CVE-2021-44228: https://cubetiq.atlassian.net/browse/CERT-1
+// Fixed Zero-Day CVE-2021-45046: https://cubetiq.atlassian.net/browse/CERT-3
+ext["log4j2.version"] = "2.16.0"
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
