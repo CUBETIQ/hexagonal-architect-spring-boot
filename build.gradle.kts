@@ -17,7 +17,8 @@ repositories {
 
 // Fixed Zero-Day CVE-2021-44228: https://cubetiq.atlassian.net/browse/CERT-1
 // Fixed Zero-Day CVE-2021-45046: https://cubetiq.atlassian.net/browse/CERT-3
-ext["log4j2.version"] = "2.16.0"
+// Fixed Zero-Day CVE-2021-45105: https://cubetiq.atlassian.net/browse/CERT-4
+ext["log4j2.version"] = "2.17.0"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
